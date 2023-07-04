@@ -1,0 +1,43 @@
+body {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 20% 40% 40%;
+}
+
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    border: 1px black solid;
+}
+
+.header {
+    grid-row: 1;
+    grid-column: 2 / 4;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px black solid;
+
+}
+
+.your-projects {
+    grid-row: 2 / 5;
+    grid-column: 2 / 3;
+    border: 1px black solid;
+    display:grid;
+}
+
+.project {
+    border: 1px black solid;
+}
+
+.announcements {
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+    border: 1px black solid;
+}
+
+.trending-container {
+    border: 1px black solid;
+}
