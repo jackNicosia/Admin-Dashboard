@@ -2,10 +2,16 @@
     font-family: 'myFont';
     src:  url('Roboto-Black.ttf') format('woff2');
     }
-    @font-face {
-        font-family: 'myFontLight';
-        src:  url('Roboto-Light.ttf') format('woff2');
-        }
+
+@font-face { 
+    font-family: 'myFontLight';
+    src:  url('Roboto-Light.ttf') format('woff2');
+    }
+@font-face {
+    font-family: 'logoFont';
+    src:  url('RussoOne-Regular.ttf') format('woff2');
+    }
+    
 
 
 
@@ -16,6 +22,16 @@ body {
     grid-template-rows: 20% 40% 40%;
     background-color: rgb(228, 228, 228);
     
+}
+
+.sidebar > h2 {
+    color: white;
+    text-align: center;
+    font-family: logoFont;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 + p {
@@ -148,6 +164,15 @@ a > img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.966); 
 }
 
+.trending{
+    display:flex;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 ul {
     height: 100%;
     display:grid;
@@ -173,6 +198,7 @@ li:nth-child(9){
     list-style-type: none;
     margin-top: 10px;
     color:white;
+    cursor: pointer;
 }
 
 .small-profile {
@@ -347,10 +373,12 @@ button {
     filter: invert(1);
 }
 
+.trending > img {
+    width: 80px;
+}
 
-
-
-
-
+img {
+    cursor: pointer;
+}
 
 
