@@ -378,7 +378,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/lock-outline.svg');
+    background-image: url('help.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
