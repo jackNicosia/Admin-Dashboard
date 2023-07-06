@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'myFont';
-    src:  url('Roboto-Black.ttf') format('woff2');
+    src:  url('fonts/Roboto-Black.ttf') format('woff2');
     }
 
 @font-face { 
     font-family: 'myFontLight';
-    src:  url('Roboto-Light.ttf') format('woff2');
+    src:  url('fonts/Roboto-Light.ttf') format('woff2');
     }
 @font-face {
     font-family: 'logoFont';
-    src:  url('RussoOne-Regular.ttf') format('woff2');
+    src:  url('fonts/RussoOne-Regular.ttf') format('woff2');
     }
     
 
@@ -36,16 +36,20 @@ body {
 
 h1 + p {
     font-family: myFontLight;
+    color: #4b4a4a;
+    font-size: 18px;
 }
 
 h2 + p {
     font-family: myFontLight;
+    color: #4b4a4a;
+    font-size: 18px;
 }
 
 
 .sidebar {
     font-family: myFont;
-    grid-column: 1;
+    grid-column: 1 / 1;
     grid-row: 1 / 5;
     border: 1px black solid;
     background-color: rgb(0, 162, 255);
@@ -97,6 +101,7 @@ a > img {
     grid-column: 2;
     margin-left: 10px;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .your-projects {
@@ -122,6 +127,7 @@ a > img {
 .project p {
     margin-left: 10px;
     margin-right: 10px;
+    color: #4b4a4a;
   }
 
   .project h1 {
@@ -135,6 +141,7 @@ a > img {
     grid-column: 3;
     font-size: 20px;
     margin-left: 10px;
+    text-decoration: underline;
 
 }
 .announcements {
@@ -159,6 +166,7 @@ a > img {
     grid-row: 4;
     grid-column: 3;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .trending-container {
@@ -177,7 +185,8 @@ a > img {
     flex-basis: 100%;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 ul {
@@ -288,7 +297,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('home.svg');
+    background-image: url('images/home.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -300,7 +309,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('profile.svg');
+    background-image: url('images/profile.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -312,7 +321,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('message.svg');
+    background-image: url('images/message.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -323,7 +332,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('history.svg');
+    background-image: url('images/history.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -334,7 +343,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('tasks.svg');
+    background-image: url('images/tasks.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -345,7 +354,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('communities.svg');
+    background-image: url('images/communities.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -356,7 +365,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('settings.svg');
+    background-image: url('images/settings.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -367,7 +376,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('help.svg');
+    background-image: url('images/help.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -378,7 +387,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('privacy.svg');
+    background-image: url('images/privacy.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
