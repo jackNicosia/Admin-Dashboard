@@ -65,7 +65,6 @@ h2 + p {
     font-family: myFont;
     grid-column: 1 / 1;
     grid-row: 1 / 5;
-    border: 1px black solid;
     background-color: rgb(0, 162, 255);
     
 }
@@ -75,12 +74,10 @@ h2 + p {
     grid-row: 1;
     grid-column: 2 / 4;
     display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 10px repeat(4, 30px);
-    border: 1px black solid;
+    grid-template-columns: repeat(12, 1fr);   /* added way more sections than needed, should fix at some point */
+    grid-template-rows: 10px repeat(4, 30px); /* added way more sections than needed, should fix at some point */
     background-color: white;
-    margin-left: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.966); 
+
 }
 
 input#searchbar {
@@ -249,6 +246,7 @@ li:nth-child(9){
     margin-top: 10px;
     color:white;
     cursor: pointer;
+    font-size: 20px;
 }
 
 li:hover {
@@ -336,11 +334,11 @@ button:hover {
 .sidebar .home-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/home.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
@@ -348,11 +346,11 @@ button:hover {
 .sidebar .profile-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/profile.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
@@ -360,81 +358,80 @@ button:hover {
 .sidebar .message-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/message.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
 .sidebar .history-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/history.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
 .sidebar .task-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/tasks.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
 .sidebar .community-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/communities.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px;
     vertical-align: middle;
     filter: invert(1);
 }
 .sidebar .settings-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/settings.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
 .sidebar .support-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/help.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
 .sidebar .privacy-icon::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
+    width: 20px; 
+    height: 20px; 
     background-image: url('images/privacy.svg');
     background-size: cover;
-    margin-right: 10px; /* Adjust the spacing between the icon and text */
+    margin-right: 10px; 
     vertical-align: middle;
     filter: invert(1);
 }
-
 
 .trending > img {
     width: 80px;
