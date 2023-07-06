@@ -288,7 +288,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/home.svg');
+    background-image: url('home.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -300,7 +300,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/card-account-details-outline.svg');
+    background-image: url('profile.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -312,7 +312,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/message-reply-text-outline.svg');
+    background-image: url('message.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -323,7 +323,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/clock-time-three-outline.svg');
+    background-image: url('history.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -334,7 +334,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/text-box-multiple-outline.svg');
+    background-image: url('tasks.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -345,7 +345,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/account-group-outline.svg');
+    background-image: url('communities.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -356,7 +356,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/cog-outline.svg');
+    background-image: url('settings.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -367,7 +367,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('file:///C:/Users/jackr/Downloads/help-circle-outline.svg');
+    background-image: url('help.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
@@ -378,7 +378,7 @@ button {
     display: inline-block;
     width: 20px; /* Adjust the width as needed */
     height: 20px; /* Adjust the height as needed */
-    background-image: url('help.svg');
+    background-image: url('privacy.svg');
     background-size: cover;
     margin-right: 10px; /* Adjust the spacing between the icon and text */
     vertical-align: middle;
